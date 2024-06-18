@@ -880,10 +880,10 @@ nav a:hover {
     height: 70vh;
   }
   #numbers {
-    height: 40vh;
+    height: 20vh;
   }
   #about {
-    height: 60vh;
+    height: 40vh;
   }
   .about1media video {
     width: 130%;
@@ -922,14 +922,27 @@ nav a:hover {
     height: 200px;
   }
   .contact {
-    height: 170vh;
+    height: 100vh;
     text-align: center;
+  }
+  #animation {
+    height: 50vh;
+  }
+  .navbar-nav .dropdown-menu {
+    position: absolute !important;
+    flex-wrap: wrap;
+  }
+  .navbar-nav {
+    gap: 1rem !important;
   }
 }
 
 @media (max-width: 768px) {
   #animation {
-    height: 100vh;
+    height: 70vh;
+  }
+  #numbers {
+    height: 30vh;
   }
   .about1 {
     display: flex;
@@ -948,7 +961,7 @@ nav a:hover {
     width: 100%;
   }
   #about {
-    height: 100vh;
+    height: 80vh;
   }
   #courses {
     height: 120vh;
@@ -1057,6 +1070,7 @@ nav a:hover {
   }
   .navbar-nav {
     width: 60% !important;
+    gap: 0rem !important;
   }
   .dropdown-menu[data-bs-popper] {
     left: 0% !important;
@@ -1071,7 +1085,7 @@ nav a:hover {
     margin-left: -5rem;
   }
   #about {
-    height: 80vh;
+    height: 90vh;
   }
   .animationItens {
     display: flex;
@@ -1123,7 +1137,7 @@ nav a:hover {
     flex-direction: column;
   }
   #numbers {
-    height: 90vh;
+    height: 100vh;
   }
   .tecnologias {
     display: flex;
