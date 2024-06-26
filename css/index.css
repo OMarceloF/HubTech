@@ -15,6 +15,7 @@ body {
 
 .dropdown-menu {
   border: transparent !important;
+  font-weight: bold !important;
 }
 
 .dropdown-menu.show {
