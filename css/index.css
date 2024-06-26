@@ -178,6 +178,10 @@ nav a:hover {
   padding: 1rem;
 }
 
+.imagemAnimada {
+  width: 400px;
+}	
+
 .animationItens {
   display: flex;
   flex-direction: row;
