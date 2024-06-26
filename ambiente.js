@@ -1,4 +1,4 @@
-// Obtenha o botão
+// Obter o botão
 let scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
 window.onscroll = function() {
@@ -17,4 +17,5 @@ function scrollFunction() {
 scrollToTopBtn.onclick = function() {
     window.scrollTo({top: 0, behavior: 'smooth'});
 };
+
 
