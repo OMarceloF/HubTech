@@ -174,7 +174,7 @@ nav a:hover {
 
 #animation {
   display: flex;
-  height: 87vh;
+  height: 89vh;
   padding: 1rem;
 }
 
@@ -879,6 +879,12 @@ nav a:hover {
 
 .rodape a:hover{
   color: #23626b;
+}
+
+@media (max-height: 650px) {
+  .imagemAnimada {
+    display: none;
+  }
 }
 
 @media (max-width: 1440px) {
